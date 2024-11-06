@@ -1,0 +1,27 @@
+{
+  "name": "backendproject",
+  "version": "1.0.0",
+  "description": "full described backend code",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ram8528/BackendProject.git"
+  },
+  "keywords": [
+    "Javascript",
+    "code"
+  ],
+  "author": "Ramdeep Kesharwani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ram8528/BackendProject/issues"
+  },
+  "homepage": "https://github.com/ram8528/BackendProject#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
+  }
+}
