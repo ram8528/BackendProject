@@ -7,7 +7,11 @@ const app = express()
 const port = 5000
 
 app.get('/', (req, res) => {    //  / -> home route  agar request aa rha to response send kr do
-  res.send('Hello World!')
+  res.send(` <style>
+    body {
+      background-color: cyan;
+    }
+  </style> Hello World!`)
 })
 
 app.get('/twitter', (req,res)=>{
